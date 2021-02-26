@@ -1,0 +1,42 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	font-size: 3rem;
+	color: #948d98;
+	text-shadow: 2px 2px red;
+}
+.buffer{
+	height: 8rem;
+}
+hr {
+	border-color: #660000;
+	border-width: 3px;
+	max-width: 60px;
+}
+.btn {
+	border-radius: 300px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+.btn-primary{
+	background-color: #660000;
+	border-color: #660000;
+}
+.btn-primary:hover{               /*propoerties we want when we hover*/
+	background-color: #400000; 
+	border-color: #400000;
+	border-width: 6px;
+
+}
+.btn-xl{
+	padding: 1rem 1.5rem;
+}
